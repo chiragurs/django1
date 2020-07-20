@@ -14,7 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_DIR="C:\\Users\\chiru\\project\\p2\\p2\\templates"
+#TEMPLATE_DIR="C:\\Users\\chiru\\project\\p2\\p2\\templates"
+TEMPLATE_DIR=os.path.join(BASE_DIR,"templates")
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,7 +27,7 @@ SECRET_KEY = 'y(no3yk4l%u74f=d_-h!ams&t10j5j^f76b1-5c29*)qjx-4dn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["192.168.43.138"]
 
 
 # Application definition

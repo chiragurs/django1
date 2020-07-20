@@ -9,3 +9,4 @@ def home(request):
 
 def html_1(request):
     return render(request,"sample1.html")
+
