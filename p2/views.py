@@ -13,3 +13,10 @@ def html_1(request):
 def third(request):
     return render(request,"directory/third.html", context={'data':"chirag",'name':"tanu"})
 
+def fourth(request):
+    fruits=['apple','mango','banana','kiwi','orange','guava']
+    return render(request,"directory/fourth.html",{'fruits':fruits})
+
+def fifth(request):
+    return render(request,"directory/fifth.html",{'a':20,'b':30})
+
