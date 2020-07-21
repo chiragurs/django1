@@ -10,3 +10,6 @@ def home(request):
 def html_1(request):
     return render(request,"sample1.html")
 
+def third(request):
+    return render(request,"directory/third.html", context={'data':"chirag",'name':"tanu"})
+
